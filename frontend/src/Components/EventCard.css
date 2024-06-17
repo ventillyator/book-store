@@ -1,0 +1,74 @@
+/* BookCard.css */
+
+.book-container {
+    margin-bottom: 20px;
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.book-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.book-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+    padding: 0 10px;
+}
+
+.book-card .img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.book-card .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.book-card .actions button {
+    padding: 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.book-card .actions button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .book-card {
+        margin-bottom: 20px;
+    }
+}
+
+.book-card {
+    padding: 20px;
+}
